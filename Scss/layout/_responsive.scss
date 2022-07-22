@@ -1,0 +1,430 @@
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+
+        .logo {
+            font-size: 28px;
+        }
+
+        .links {
+            display: none;
+        }
+
+        .hamburger-menu {
+            display: flex;
+        }
+    }
+
+    /* HOME */
+    #home {
+
+        .flexing {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 48px;
+        }
+
+        p {
+            margin: 0 auto;
+            font-size: 21px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .home-buttons {
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    /* HELP */
+    #help {
+        padding: 80px 0;
+
+        .help-title {
+            font-size: 36px;
+        }
+
+        .flexing {
+            flex-direction: column;
+        }
+
+        .help-col {
+
+            i {
+                font-size: 92px;
+            }
+        }
+
+        .help-foot {
+
+            h2 {
+                font-size: 28px;
+            }
+        }
+    }
+
+    /* PROJECTS */
+    #projects {
+
+        .projects-top {
+
+            h1 {
+                font-size: 65px;
+                margin-top: 40px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+
+            .tests {
+
+                p {
+                    font-size: 20px;
+                }
+            }
+
+            .levels+p {
+                font-size: 18px;
+                max-width: 700px;
+            }
+
+        }
+
+        .levels {
+
+            a {
+                font-size: 15px;
+            }
+        }
+    }
+
+    /* Projects Card */
+    #projects-card {
+        margin-right: 0px;
+        margin-left: 0px;
+
+        .flexing {
+            flex-direction: column;
+        }
+
+        .col-3 {
+            margin-right: 0px;
+            margin-top: 20px;
+        }
+
+    }
+
+    /* FAQ */
+    #faqContent {
+
+        .container {
+            padding: 0px;
+        }
+
+        h1 {
+            font-size: 42px;
+        }
+
+        .faqBox {
+            width: 100%;
+        }
+    }
+
+    /* CONTACT */
+    #contact {
+
+        .contact-col {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contactUs {
+
+            h1 {
+                font-size: 48px;
+                text-align: center;
+            }
+        }
+
+        .formUs {
+
+            form {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+
+    /* HEADER */
+    header {
+
+        .logo {
+            font-size: 24px;
+        }
+    }
+
+    /* HOME */
+    #home {
+
+        h2 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .home-buttons {
+
+            a {
+                font-size: 14px;
+                padding: 10px 15px;
+            }
+        }
+    }
+
+    /* HELP */
+    #help {
+
+        padding: 60px 0;
+
+        .help-title {
+            font-size: 30px;
+        }
+
+        .help-col {
+
+            p {
+                font-size: 16px;
+            }
+
+            i {
+                font-size: 84px;
+            }
+        }
+
+        .help-foot {
+
+            h2 {
+                font-size: 26px;
+            }
+        }
+    }
+
+    /* PROJECTS */
+    #projects {
+
+        .projects-top {
+
+            h1 {
+                font-size: 50px;
+                margin-top: 25px;
+            }
+
+            h2 {
+                font-size: 23px;
+            }
+
+            .tests {
+
+                p {
+                    font-size: 18px;
+                }
+            }
+
+            .levels+p {
+                font-size: 17px;
+                max-width: 500px;
+            }
+
+        }
+
+        .levels {
+            flex-direction: column;
+            margin-left: 0;
+
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+
+    /* Projects Card */
+
+    #projects-card {
+
+        .col-3 {
+            margin-top: 20px;
+
+            img {
+                width: 250px;
+                height: auto;
+            }
+        }
+
+    }
+
+    /* FAQ */
+    #faqContent {
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        .faqBox {
+            width: 100%;
+        }
+    }
+
+    /* CONTACT */
+    #contact {
+
+        .contactUs {
+
+            h1 {
+                font-size: 44px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .formUs {
+
+            form {
+
+                input,
+                textarea {
+                    width: 368px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+
+    /* HOME */
+    #home {
+
+        h2 {
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 17px;
+        }
+
+        .home-buttons {
+
+            a {
+                padding: 9px 14px;
+            }
+        }
+    }
+
+    /* HELP */
+    #help {
+
+        .help-title {
+            font-size: 26px;
+        }
+
+        .help-col {
+            flex-direction: column;
+        }
+
+        .help-foot {
+
+            h2 {
+                font-size: 24px;
+            }
+
+            a {
+                padding: 8px 13px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    /* FOOTER */
+    footer {
+
+        p {
+            font-size: 14px;
+        }
+
+        a {
+            font-size: 15px;
+        }
+    }
+
+    /* FAQ */
+    #faqContent {
+
+        h1 {
+            font-size: 32px;
+        }
+
+        h2 {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .whyDid {
+
+            ul {
+
+                li {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    /* CONTACT */
+    #contact {
+
+        .contactUs {
+
+            h1 {
+                font-size: 42px;
+            }
+        }
+
+        .formUs {
+
+            form {
+
+                input, textarea {
+                    width: 280px;
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,59 @@
+/* HOME */
+
+#home {
+    background-color: $bg-color;
+    padding-top: 175px;
+
+    .flexing {
+        padding: 0;
+    }
+
+    h2 {
+        font-size: 55px;
+        line-height: 1.1;
+        letter-spacing: 2px;
+    }
+
+    p {
+        margin: 20px 0;
+        font-size: 23px;
+        width: 100%;
+        max-width: 500px;
+        line-height: 1.5;
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .home-buttons {
+        display: flex;
+        a {
+            padding: 14px 19px;
+            color: $primary-color;
+            font-size: 16px;
+            font-weight: $font-bold;
+            border: $borders;
+            cursor: pointer;
+        }
+    }
+
+    .first-button {
+        background-color: $white-color;
+        transition: $all-transitions;
+
+        &:hover {
+            background: $secondary-color;
+            color: $white-color;
+        }
+    }
+
+    .second-button {
+        transition: $all-transitions;
+        margin-left: 15px;
+        &:hover {
+            background: $secondary-color;
+            color: $white-color;
+        }
+    }
+}

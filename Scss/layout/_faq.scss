@@ -1,0 +1,57 @@
+/* FAQ */
+
+#faqContent {
+
+    .container {
+        padding: 0 15px;
+    }
+
+    h1 {
+        margin: 13px 0 52px 0;
+        text-align: center;
+        font-size: 52px;
+    }
+
+    .contentBoxes {
+        margin: 0 auto;
+    }
+
+    .faqBox {
+        margin: 20px 0 0 0;
+        width: 67%;
+        border: $borders;
+    }
+
+    h2 {
+        background: $bg-color;
+        padding: 10px 20px;
+        font-size: 26px;
+        font-weight: $font-bold;
+        border-bottom: $borders;
+        margin: 0 auto;
+    }
+
+    p {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    span {
+        font-weight: $font-bold;
+        text-decoration: underline;
+    }
+
+    .whyDid {
+
+        ul {
+            margin: 0  0  0 23.2px;
+            padding: 0 20px;
+
+            li {
+                font-size: 18px;
+                list-style-type: circle;
+            }
+        }
+    }
+
+}

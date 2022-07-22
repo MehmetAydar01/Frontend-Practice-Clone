@@ -1,0 +1,87 @@
+/* HELP */
+
+#help {
+    border-top: $borders;
+    text-align: center;
+
+    .help-title {
+        font-size: 40px;
+        margin: 0 auto;
+        line-height: 1.1;
+        font-weight: $font-bold;
+        max-width: 725px;
+        letter-spacing: 2px;
+    }
+
+    .help-content {
+        margin: 75px 28.5px 50px;
+    }
+
+    .flexing {
+        justify-content: center;
+    }
+
+    .help-col {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        max-width: 450px;
+
+        i {
+            font-size: 100px;
+            margin: 0 30px 15px 0;
+        } 
+    }
+
+    .fa-earth-europe {
+        color: #80bcdf;
+    }
+
+    .fa-staylinked {
+        color: #FF5591;
+    }
+
+    .fa-meteor {
+        color: #fe845f;
+    }
+
+    .fa-lightbulb {
+        color: #FFDE99;
+    }
+
+    p {
+        font-size: 18px;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .help-foot {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        h2 {
+            max-width: 500px;
+            margin: 24.9px 0;
+            line-height: 1.1;
+            font-size: 30px;
+            font-weight: $font-bold;
+        }
+
+        a {
+            padding: 10px 15px;
+            font-size: 16px;
+            color: $primary-color;
+            font-weight: $font-bold;
+            border: $borders;
+            transition: $all-transitions;
+
+            &:hover {
+                color: $white-color;
+                background-color: $secondary-color;
+            }
+        }
+    }
+}

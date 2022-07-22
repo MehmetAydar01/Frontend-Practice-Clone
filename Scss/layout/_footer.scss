@@ -1,0 +1,35 @@
+/* FOOTER */
+
+footer {
+    background-color: $secondary-color;
+    padding: 25px 20px;
+
+    .flexing {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    p {
+        color: $white-color;
+        margin: 0 0 16px;
+    }
+
+    a {
+        margin: 0 15px;
+        font-size: 16px;
+        font-weight: $font-bold;
+        color: $white-color;
+        transition: $all-transitions;
+
+        &:hover {
+            text-decoration: underline;
+            color: $bg-color;
+        }
+    }
+    
+    li:first-child {
+        a {
+            margin-left: 0;
+        }
+    }
+}

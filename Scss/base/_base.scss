@@ -1,0 +1,46 @@
+/* BASE */
+
+$all-transitions: all .5s ease;
+$borders: 2px solid $secondary-color;
+
+body {
+    font-family: $primary-font;
+    line-height: 1.5;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-family: $primary-font;
+}
+
+h1, h2, h3, h4 {
+    color: $secondary-color;
+    font-family: $secondary-font;
+}
+
+.logo {
+    font-size: 30px;
+    color: $primary-color;
+    font-weight: $font-bold;
+}
+
+button, label, input, textarea {
+    border-radius: 0;
+    margin: 15px 0 0;
+}

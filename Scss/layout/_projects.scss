@@ -1,0 +1,131 @@
+/* PROJECTS */
+
+#projects {
+    padding-top: 85px;
+    padding-bottom: 25px;
+
+    .projects-top {
+        text-align: center;
+
+        h1 {
+            font-size: 75px;
+            margin: 50px 0px 5px;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-size: 26px;
+            margin: 22px auto;
+            text-decoration: underline;
+        }
+
+        .tests {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            max-width: 500px;
+            margin: 0 auto 12.5px;
+
+            p {
+                font-size: 22px;
+                margin: 10px 0;
+
+                span {
+                    text-decoration: underline;
+                }
+
+                &:last-child  {
+                    font-weight: $font-bold;
+                }
+            }
+
+            i {
+                margin-right: 10px;
+                margin-left: 50px;
+            }
+        }
+
+        .levels + p {
+            font-size: 18px;
+            margin: 34px auto;
+            padding: 5px 21px;
+            max-width: 700px;
+            font-weight: $font-bold;
+        }
+
+    }
+
+    .levels {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 16px;
+
+        a {
+            padding: 10px 15px;
+            font-size: 16px;
+            font-weight: $font-bold;
+            margin: 5px 15px 5px 0;
+            letter-spacing: 1px;
+            border: $borders;
+            color: $secondary-color;
+            transition: $all-transitions;
+
+            &:first-child {
+                color: $white-color;
+                background-color: $secondary-color;
+            }
+
+            &:nth-child(2):hover {
+                background-color: rgb(188, 255, 147);
+            }
+
+            &:nth-child(3):hover {
+                background-color: rgb(252, 255, 116);
+            }
+
+            &:nth-child(4):hover {
+                background-color: rgb(255, 212, 48);
+            }
+        }
+    }
+}
+
+/* Projects Card */
+
+#projects-card {
+    padding-top: 5px;
+    padding-bottom: 50px;
+    margin-right: 170px;
+    margin-left: 170px;
+
+    .flexing {
+        padding: 0;
+        margin-top: 30px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    .col-3 {
+        margin-right: 35px;
+        cursor: pointer;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border: $borders;
+            transition: $all-transitions;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+}

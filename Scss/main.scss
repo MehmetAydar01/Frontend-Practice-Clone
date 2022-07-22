@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+// Config files and helpers
+@import './abstracts/colors';
+@import './abstracts/type';
+
+// Reset
+@import './resets/reset';
+
+// Base General Styles
+@import './base/base';
+
+// Layout
+@import './layout/flex';
+@import './layout/header';
+@import './layout/home';
+@import './layout/help';
+@import './layout/footer';
+@import './layout/projects';
+@import './layout/faq';
+@import './layout/contact';
+@import './layout/responsive';
