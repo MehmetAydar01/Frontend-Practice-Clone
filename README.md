@@ -4,8 +4,11 @@
 
 ***
 
+* **SCSS, which is a CSS preprocessor, is used.**
+
 * **Full Responsive**
-* **[Live Demo]()**
+
+* **[Live Demo](https://mehmetaydar01.github.io/Frontend-Practice-Clone/)**
 
 
 
